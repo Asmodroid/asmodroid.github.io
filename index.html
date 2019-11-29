@@ -10,11 +10,13 @@
     <script src="Build/UnityLoader.js"></script>
     <script>
       var unityInstance = UnityLoader.instantiate("unityContainer", "Build/BUILD.json", {onProgress: UnityProgress});
+	  var width1 = document.body.clientWidth; // ширина  
+	  var height1 = document.body.clientHeight; // высота
     </script>
   </head>
   <body>
     <div class="webgl-content">
-      <div id="unityContainer" style="width: window.screen.availWidth; height: window.screen.availHeight"></div>
+      <div id="unityContainer" style="width: width1; height: height1"></div>
       <div class="footer">
         <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
