@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "mrsk-assets",
+"productVersion": "2",
+"dataUrl": "WEB_21_1_v2(KEY).data.unityweb",
+"wasmCodeUrl": "WEB_21_1_v2(KEY).wasm.code.unityweb",
+"wasmFrameworkUrl": "WEB_21_1_v2(KEY).wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.14f1"
+}
